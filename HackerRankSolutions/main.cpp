@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
+#include "pairs.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Pairs *p = new Pairs();
+    cout << "Answer Is: ";
+    cout << p->solve();
+    //std::cout << "Hello, World3!\n";
     return 0;
 }
 
