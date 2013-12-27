@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071344D91864072E00B27717 /* RotateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071344D71864072E00B27717 /* RotateArray.cpp */; };
 		077175C7185D2BD800AB59E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077175C6185D2BD800AB59E6 /* main.cpp */; };
 		077175C9185D2BD800AB59E6 /* HackerRankSolutions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 077175C8185D2BD800AB59E6 /* HackerRankSolutions.1 */; };
 		077175D1185D2C2300AB59E6 /* pairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077175CF185D2C2300AB59E6 /* pairs.cpp */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		071344D71864072E00B27717 /* RotateArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateArray.cpp; sourceTree = "<group>"; };
+		071344D81864072E00B27717 /* RotateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateArray.h; sourceTree = "<group>"; };
 		077175C3185D2BD800AB59E6 /* HackerRankSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		077175C6185D2BD800AB59E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		077175C8185D2BD800AB59E6 /* HackerRankSolutions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HackerRankSolutions.1; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				077175C8185D2BD800AB59E6 /* HackerRankSolutions.1 */,
 				077175CF185D2C2300AB59E6 /* pairs.cpp */,
 				077175D0185D2C2300AB59E6 /* pairs.h */,
+				071344D71864072E00B27717 /* RotateArray.cpp */,
+				071344D81864072E00B27717 /* RotateArray.h */,
 			);
 			path = HackerRankSolutions;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				077175C7185D2BD800AB59E6 /* main.cpp in Sources */,
+				071344D91864072E00B27717 /* RotateArray.cpp in Sources */,
 				077175D1185D2C2300AB59E6 /* pairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +237,7 @@
 				077175CE185D2BD800AB59E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
