@@ -17,9 +17,6 @@ def print_array(ar)
 	print "\n"
 end
 
-# Tail starts here
-#count = gets.to_i
-#ar = gets.strip.split.map {|i| i.to_i}
 ar = [2, 4, 6, 8, 3]
 
 insertionSort( ar )
